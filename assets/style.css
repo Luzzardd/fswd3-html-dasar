@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --size-garis:18px;
+}
+body{
+    --Blue:rgb(141, 255, 255);
+    background-color: var(--Blue);
+}
+h1{
+    text-align: center;
+}
+.galeri{
+    display: block;
+}
+.Bunga{
+    display: inline-block;
+    margin-left: 5%;
+}
+.in{
+    display: block;
+    width: 20vw;
+    height: 50vh;
+    border-radius: var(--size-garis);
+    margin: 10px;
+    float: left;
+}
+h3,p{
+    text-align: center;
+}
+.in>img{
+    width: 19.7vw;
+    height: 30vh;
+    border-radius: var(--size-garis);
+}
+
+.R{
+    background-color: green;
+    border: 3px solid white;
+}
+.S{
+    background-color: grey;
+    border: 3px solid white;
+}
+.T{
+    background-color: pink;
+    border: 3px solid green;
+}
+.U{
+    background-color: red;
+    border: 3px solid greenyellow;
+}
+.V{
+    background-color: red;
+    border: 3px solid black;
+}
+.W{
+    background-color: yellow;
+    border: 3px solid pink;
+}
+.X{
+    background-color: green;
+    border: 3px solid yellow;
+}
+.Y{
+    background-color: purple;
+    border: 3px solid green;
+}
