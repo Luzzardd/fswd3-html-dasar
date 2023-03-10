@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(12, 216, 39);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 15px 0;
+  
+  }
+  
+  
+  /* GRID */
+  
+  .grid {
+    height: 680px;
+    width: 470px;
+    background-color:#8f5d6e;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: 
+    'home image image'
+    'home phone location'
+    'music phone bomb'
+    'music heart bomb'
+    'truck truck comment'
+    'shop shop shop';
+    padding: 8px;
+    gap: 15px;
+  
+  }
+  
+  .shadow {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(248, 162, 162, 0.5);
+    display: flex;
+  }
+  
+  i {
+    color: rgb(19, 0, 122);
+    font-size: 1.5em;
+    margin: auto;
+  }
+  
+  .home {
+    grid-area: home;
+    background-color: #bac7a7;
+  }
+  
+  .image {
+    grid-area: image;
+    background-color: #4c6687;
+  }
+  
+  .phone {
+    grid-area: phone;
+    background-color: #b5e211;
+  }
+  
+  .location {
+    grid-area: location;
+    background-color: #f50707;
+  }
+  
+  .music {
+    grid-area: music;
+    background-color: #ac0f7d;
+  }
+  
+  .heart {
+    grid-area: heart;
+    background-color: #f5a5b9;
+  }
+  
+  .bomb {
+    grid-area: bomb;
+    background-color: #6b5ee7;
+  }
+  
+  .truck {
+    grid-area: truck;
+    background-color: #471818;
+  }
+  
+  .comment {
+    grid-area: comment;
+    background-color: #a6bdd8;
+  }
+  
+  .shop {
+    grid-area: shop;
+    background-color: #011036;
+  }
+  
+  
+  /* FLEXBOX */
+  
+  .flex {
+    width: 470px;
+    height: 680px;
+    background-color: #d67495;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .flex .home {
+    width: 219px;
+    height: 217px;
+    margin: 8px;
+  }
+  
+  .flex .image {
+    width: 219px;
+    height: 107px;
+    margin: 7px;
+  }
+  
+  .flex .music {
+    width: 219px;
+    height: 219px;
+    margin: 7px;
+    margin-top: 16px;
+  }
+  
+  .tiga {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lima {
+    display: flex;
+  }
+  
+  .flex .phone {
+    width: 101px;
+    height: 215px;
+    margin: 7px;
+  }
+  
+  .flex .heart {
+    width: 101px;   
+    height: 101px;
+    margin: 7px;
+  }
+  
+  .flex .location {
+    width: 101px;   
+    height: 101px;
+    margin: 7px;
+  }
+  
+  .flex .bomb {
+    width: 101px;
+    height: 215px;
+    margin: 7px;
+    margin-top: 16px;
+  }
+  
+  .enam {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tujuh {
+    display: flex;
+  }
+  
+  .flex .truck {
+    width: 336px;
+    height: 93px;
+    margin: 7px;
+  }
+  
+  .flex .comment {
+    width: 101px;
+    height: 93px;
+    margin: 7px;
+  }
+  
+  .flex .shop {
+    width: 453px;
+    height: 93px;
+    margin: 7px;
+  }
