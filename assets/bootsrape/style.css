@@ -1,0 +1,55 @@
+*, html{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    height: 100vh;
+}
+
+body {
+    background-color: aqua;
+}
+
+.navbar{
+    background-color: #009efa;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar{
+   display: flex; 
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.li-navbar{
+    border: 1px solid blue;
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+
+}
+.konten-navbar{
+    background-color: black;
+    justify-content: center;
+    align-items: center ;
+
+}
+ig-navbar{
+    width: 30%;
+    height: 30%;
+
+}
+
+.container-navbar{
+display: flex;
+height: 100px;
+background-color: #009efa;
+justify-content: center;
+align-items: center;
+}
+
