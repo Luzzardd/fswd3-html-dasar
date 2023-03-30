@@ -7,30 +7,29 @@
     height: 100vh;
 }
 
-body {
-    background-color: aqua;
-}
 
-.navbar{
-    background-color: #009efa;
+
+.navbartable{
+    background-color: #fff;
     width: 100%;
     height: 100px;
+    
 }
 
 .ul-navbar{
    display: flex; 
    height: 100px;
-   justify-content: center;
+   justify-content: right;
    align-items: center;
-  
+   
 }
 
 .li-navbar{
-    border: 1px solid blue;
+    border: none;
     list-style: none;
     padding: 20px;
     margin: 5px;
-    color: white;
+    color:black;
 
 }
 .konten-navbar{
@@ -53,3 +52,32 @@ justify-content: center;
 align-items: center;
 }
 
+.navbar{
+background-color:#b3ddf6d1 ;
+height: 240%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.nav-blog{
+    font-size: 250%;
+    list-style: none;
+    position: absolute;
+    bottom: 79%;
+    left: 25%;
+    
+}
+
+.nav-Teks{
+    font-size: 150%;
+    list-style: none;
+    position: absolute;
+    left: 25%;
+   
+    
+
+
+}
